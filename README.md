@@ -18,7 +18,7 @@ Credenciales para /admin:
 Usuario: admin
 Contraseña: contrasena123
 ```
-## Construido con
+### Construido con
 
 * [Django](https://www.djangoproject.com/)
 * [Miniconda](https://docs.conda.io/en/latest/miniconda.html) 
