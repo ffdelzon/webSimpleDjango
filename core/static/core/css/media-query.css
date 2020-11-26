@@ -1,0 +1,50 @@
+/* rango */
+@media only screen and (min-device-width: 320px) and (max-device-width: 374px){
+    h1{
+        font-size: 50px;
+    }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 480px){
+	h1{
+        font-size: 60px;
+    }
+}
+/* medida especifica */
+@media only screen and (device-width: 414px){
+
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 736px){
+	
+}
+@media only screen and (min-device-width: 737px) and (max-device-width: 768px){
+	
+}
+
+/* landscape */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) { 
+
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px){
+
+}
+/* medida especifica */
+@media only screen and (device-width: 812px){
+	
+}
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1366px){
+
+}
+@media only screen and (min-device-width: 1367px) and (max-device-width: 1440px){
+
+}
+@media only screen and (min-device-width: 1441px) and (max-device-width: 1680px){
+
+}
+@media only screen and (min-device-width: 1681px) and (max-device-width: 1920px){
+
+}

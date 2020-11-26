@@ -1,0 +1,22 @@
+{% extends 'core/base.html' %}
+
+{% block header %}
+<h1 class="text-center">Acerca de</h1>
+<p class="text-center">Un poco de mi</p>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-8 col-md-8 col-sm-12 col-12">
+        <h2>Francisco Flores Delzón</h2>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-12 col-12">
+        <p class="text-justify">{% lorem how_many_paragraphs %}</p><br><br>
+        <p class="text-justify">{% lorem how_many_paragraphs %}</p>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+        
+        <img src="{% load static %}{% static 'core/img/logo.png' %}" alt="avatar-ffdelzon" class="col-12">
+    </div>
+</div>
+{% endblock %}
